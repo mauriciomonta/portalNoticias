@@ -1,0 +1,82 @@
+h1, h2{
+    font-size: 20px;
+}
+.noticia{
+    margin-left: 20px;
+}
+body{
+    background-color: lightgrey;
+}
+
+.divNoticia{
+    background-color: rgb(236, 236, 236);
+    margin-bottom: 20px;
+}
+.divNoticia h2{
+    color: rgb(58, 58, 241);
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.divNoticia p{
+    font-size: 16px;
+}
+
+.nombreAutor{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.visible{
+    display: flex!important;
+
+}
+.cargarNoticia{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.verNoticias{
+    display: none;
+    z-index: 1;
+    justify-content: center;
+    
+}
+
+.btnVolver{
+    position: fixed;
+	bottom: 40px;
+	left: 40px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.autor{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+    font-weight: 300;
+}
+.cuerponoticia{
+    padding: 0px 50px 0px 50px;
+}
